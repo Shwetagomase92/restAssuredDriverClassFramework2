@@ -48,7 +48,7 @@ public class Post_TC1
 		Assert.assertEquals(resName, reqName);
 		Assert.assertEquals(resJob, reqJob);
 		Assert.assertNotNull(resId);
-		//Assert.assertEquals(expDate, actDate);
+		Assert.assertEquals(expDate, actDate);
 
 	}
 }
